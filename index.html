@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sambit K Mondal</title>
+    <link rel="icon" type="image/x-icon" href="media/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1eb90fb262.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+<div id="header">
+    <div class="container">
+        <nav id="stickyheader">
+            <img src="media/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">    
+            <h1>Hi, I'm <span>Sambit</span><br>From Kolkata, India</h1>
+            <p>I'm a Student</p>
+        </div>
+    </div>
+</div>
+<!-- --------------about----------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="media/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a College student. Proficient in C, Python,and 3D modeling. Seeking internship to apply skills and gain experience.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                    <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>Institute of Engineering & Management, Kolkata</span><br> 2021 - Present</li>
+                        <li><span>St. Stephen's School, Dum Dum (ISC)</span><br> 2019 - 2021</li>
+                        <li><span>St. Stephen's School, Dum Dum (ICSE)</span><br> 2006 - 2019</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="languages">
+                    <ul>
+                        <li><span>English</span><br> Professional Working Proficiency</li>
+                        <li><span>Bengali</span><br> Native or Bilingual Proficiency</li>
+                        <li><span>Hindi</span><br> Full Professional Proficiency</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li><span>Gaming</span><br>Good Story Games</li>
+                        <li><span>Game Development</span><br>A bit trying in Unity and Unreal Engine</li>
+                        <li><span>Graphic Drawing</span><br>Logo making and other stuff in Canva</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------skills----------------- -->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>Advanced Coding Knowledge, GUI Designing using Tkinter</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-c"></i>
+                <h2>C</h2>
+                <p>Advanced Coding Knowledge</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java</h2>
+                <p>Basic Coding Knowledge, App Development using Android Studio</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-pager"></i>
+                <h2>HTML,CSS,JS</h2>
+                <p>Basic Coding Knowledge, Simple Responsive Websites</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-photo-film"></i>
+                <h2>Media Editing</h2>
+                <p>Image Editing using Canva and Video Editing using Da Vinci Resolve</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-cube"></i>
+                <h2>3d Modelling</h2>
+                <p>Modelling in Blender</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------portfolio----------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">    
+                <img src="media/orator.png">
+                <div class="layer">
+                    <h3>Orator</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">    
+                <img src="media/texteditor.png">
+                <div class="layer">
+                    <h3>Text Editor</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>     
+        </div>
+        <a href="https://github.com/Sambit-X" class="btn">See more on Github</a>
+    </div>
+</div>
+<!-- --------------contact----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>sambitmondal02@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9147103630</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sambitmondal/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Sambit-X"><i class="fa-brands fa-github">
+                    </i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sam_m_v_v/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://discord.gg/EWX4bRaM"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1gZHha1ICoCl3SjFJ9aNAs4QUjcjCs8ab/view?usp=sharing" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Sambit Kumar Mondal #keeplearning #keepeating</p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxSUgXACORtzcxVo5ClzRQsUTGGmopj5eStux4JOnpWOTNXrK2TcsiKDyQZaOxmzpAO/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML ="";
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
